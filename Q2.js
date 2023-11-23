@@ -1,17 +1,5 @@
-function shufflings(inputStr) {
-
-for (const iterator of inputStr) {
-    console.log(iterator);
-}
-    
- return inputStr.split('')
-
-
-
+function shufflings(params) {
+    return  params.sort(()=>Math.random()-.5);
 }
 
-// Test cases
-console.log(shufflings('a'));    // Output: ['a']
-console.log(shufflings('ab'));   // Output: ['ab', 'ba']
-console.log(shufflings('abc'));  // Output: ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
-console.log(shufflings('aabb')); // Output: ['aabb', 'abab', 'abba', 'baab', 'baba', 'bbaa']
+console.log(shufflings(["ab"]))

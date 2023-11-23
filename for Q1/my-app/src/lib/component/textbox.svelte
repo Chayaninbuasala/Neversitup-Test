@@ -1,0 +1,11 @@
+<input type="text"  placeholder="im component from lib " />
+<style>
+    input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+</style>
